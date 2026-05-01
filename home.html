@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Elite Cuts | Barbershop & Salon</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #f5f5f5;
+    color: #333;
+}
+
+/* NAVBAR */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background: #000;
+    color: #fff;
+}
+
+nav h1 {
+    color: #f4b400;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #f4b400;
+}
+
+/* HERO */
+.hero {
+    height: 90vh;
+    background: url('https://images.unsplash.com/photo-1585747860715-2ba37e788b70') center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 50px;
+}
+
+.hero p {
+    margin: 20px 0;
+    font-size: 18px;
+}
+
+.btn {
+    padding: 12px 25px;
+    background: #f4b400;
+    color: #000;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background: #d99a00;
+}
+
+/* SERVICES */
+.services {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.services h2 {
+    margin-bottom: 30px;
+}
+
+.service-box {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: #fff;
+    padding: 20px;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.card h3 {
+    margin-bottom: 10px;
+}
+
+/* ABOUT */
+.about {
+    padding: 60px 20px;
+    background: #000;
+    color: #fff;
+    text-align: center;
+}
+
+.about h2 {
+    margin-bottom: 20px;
+}
+
+/* CTA */
+.cta {
+    padding: 50px;
+    text-align: center;
+    background: #f4b400;
+    color: #000;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #111;
+    color: #aaa;
+}
+
+/* RESPONSIVE */
+@media(max-width: 768px) {
+    .hero h2 {
+        font-size: 30px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav>
+    <h1>Elite Cuts</h1>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li>About</li>
+        <li>Contact</li>
+    </ul>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+    <div>
+        <h2>Fresh Cuts, Fresh Confidence</h2>
+        <p>Your style, our passion. Experience premium grooming.</p>
+        <a href="services.html">
+            <button class="btn">Book Appointment</button>
+        </a>
+    </div>
+</section>
+
+<!-- SERVICES -->
+<section class="services">
+    <h2>Our Services</h2>
+    <div class="service-box">
+
+        <div class="card">
+            <h3>Haircuts</h3>
+            <p>Modern and classic styles tailored for you.</p>
+        </div>
+
+        <div class="card">
+            <h3>Beard Grooming</h3>
+            <p>Sharp trims and shaping for a clean look.</p>
+        </div>
+
+        <div class="card">
+            <h3>Hair Styling</h3>
+            <p>Professional styling for any occasion.</p>
+        </div>
+
+        <div class="card">
+            <h3>Massage</h3>
+            <p>Relaxing body massage to refresh your mind and body.</p>
+        </div>
+
+        <div class="card">
+            <h3>Pedicure</h3>
+            <p>Professional foot care for clean and healthy feet.</p>
+        </div>
+
+        <div class="card">
+            <h3>Manicure</h3>
+            <p>Keep your hands neat, clean, and stylish.</p>
+        </div>
+
+    </div>
+</section>
+
+<!-- ABOUT -->/
+<section class="about">
+    <h2>About Us</h2>
+    <p>We are a professional barbershop offering top-quality grooming services with experienced stylists and a comfortable environment.</p>
+</section>
+
+<!-- CTA -->
+<section class="cta">
+    <h2>Ready for a New Look?</h2>
+    <a href="services.html">
+        <button class="btn">Book Now</button>
+    </a>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    <p>© 2026 Elite Cuts. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>9

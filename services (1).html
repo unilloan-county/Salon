@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Our Services | Elite Cuts</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #f5f5f5;
+    color: #333;
+}
+
+/* NAVBAR */
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    background: #000;
+    color: #fff;
+}
+
+nav h1 {
+    color: #f4b400;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+nav a:hover {
+    color: #f4b400;
+}
+
+/* HEADER */
+.header {
+    text-align: center;
+    padding: 50px 20px;
+    background: #111;
+    color: #fff;
+}
+
+.header h2 {
+    font-size: 40px;
+}
+
+/* SERVICES */
+.services {
+    padding: 50px 20px;
+}
+
+.service-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+/* CARD */
+.card {
+    background: #fff;
+    width: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-content {
+    padding: 15px;
+}
+
+/* VIDEO SECTION */
+.videos {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.video-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+/* IFRAME */
+iframe {
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+/* BACK BUTTON */
+.back {
+    text-align: center;
+    margin: 40px;
+}
+
+.btn {
+    padding: 12px 25px;
+    background: #f4b400;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background: #d99a00;
+}
+</style>
+</head>
+
+<body>
+
+<!-- NAV -->
+<nav>
+    <h1>Elite Cuts</h1>
+    <div>
+        <a href="index.html">Home</a>
+    </div>
+</nav>
+
+<!-- HEADER -->
+<section class="header">
+    <h2>Our Services</h2>
+    <p>Professional grooming tailored to your style</p>
+</section>
+
+<!-- SERVICES WITH IMAGES -->
+<section class="services">
+    <div class="service-container">
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1517832606299-7ae9b720a186">
+            <div class="card-content">
+                <h3>Classic Haircut</h3>
+                <p>Clean and sharp styles for all occasions.</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="hair.jpg">
+            <div class="card-content">
+                <h3>Classic hair care</h3>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9">
+            <div class="card-content">
+                <h3>Hair Styling</h3>
+                <p>Modern styling for events and everyday looks.</p>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- VIDEOS -->
+<section class="videos">
+    <h2>Watch Our Work</h2>
+
+    <div class="video-container">
+
+        
+        <video src= "video.mp4" type="video/mp4" height="170" > </video>
+
+        <video src="vida.mp4" type="video/mp4"  height="170"></video>
+
+    </div>
+</section>
+
+<!-- BACK BUTTON -->
+<div class="back">
+    <a href="index.html">
+        <button class="btn">Back to Home</button>
+    </a>
+</div>
+
